@@ -49,7 +49,7 @@ for(int i=0;i<n;i++)
 	if(copyarr[i]==arr[i])
 		check++;
 }
-if(check==0 || k<=1)
+if(check==0 || k > 1)
 {
 	cout<< "\nYES";
 }
